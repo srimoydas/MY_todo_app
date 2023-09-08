@@ -36,3 +36,113 @@
     transform: rotate(360deg);
   }
 }
+/* Style for the input box */
+input[type="text"] {
+  width: 200px; /* Set the width of the input box */
+  padding: 10px; /* Add padding to the input box */
+  border: 1px solid #ccc; /* Add a border to the input box */
+  border-radius: 5px; /* Add rounded corners to the input box */
+  outline: none; /* Remove the default input box outline */
+}
+
+/* Style for the button */
+button {
+  padding: 10px 20px; /* Add padding to the button */
+  background-color: #007bff; /* Set the background color of the button */
+  color: #fff; /* Set the text color of the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+/* Style for the card container */
+.card {
+  width: 700px; /* Set the width of the card */
+  padding: 20px;
+  margin-top:50%; /* Add padding to the card */
+  background-color: #AED2FF; /* Set the background color of the card */
+  border: 1px solid #ccc; /* Add a border to the card */
+  border-radius: 10px; /* Add rounded corners to the card */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  margin:0 auto;/* Add a subtle shadow to the card */
+}
+
+/* Style for the card title */
+.card h2 {
+  font-size: 24px; /* Set the font size of the card title */
+  margin-bottom: 10px;
+  text-align: center; /* Add space below the title */
+}
+
+/* Style for the card content (input and button) */
+.card-content {
+  display: flex; /* Use flexbox to align input and button horizontally */
+  flex-direction: column;
+  gap:1rem; /* Stack input and button vertically */
+}
+
+/* Style for the input box */
+.card-content input[type="text"] {
+  width: 70%; /* Make the input box fill the card width */
+  padding: 20px; /* Add padding to the input box */
+  margin-bottom: 10px;
+  margin: 0 auto; /* Add space below the input box */
+}
+
+/* Style for the button */
+.card-content button {
+  padding: 8px 16px; /* Add padding to the button */
+  background-color: #007bff; /* Set the background color of the button */
+  color: #fff; /* Set the text color of the button */
+  border: none; /* Remove the button border */
+  border-radius: 5px; /* Add rounded corners to the button */
+  cursor: pointer; 
+  width:50%;
+  margin: 0 auto;/* Change the cursor to a pointer on hover */
+}
+
+/* Hover effect for the button */
+.card-content button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+
+/* Style the todo list container */
+.todo-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top:1rem;
+}
+
+/* Style the task list */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style the individual task items */
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  gap:1.6rem;
+  background-color: #176B87;
+  color: #EEEEEE;
+}
+body{
+  background: #E4F1FF;
+}
